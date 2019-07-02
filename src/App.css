@@ -1,3 +1,28 @@
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #1b1414, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #140e05, #140202, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.menu-link{
+  font-size: 60px;
+  text-decoration-color: #833ab4;
+}
+.logo{
+  
+  height:100pt;
+  width:100pt;
+ position: absolute;
+ left: 3vw;
+ top:12px;
+
+}
+
+/* Refine later*/
+
+
+
 .App {
   text-align: center;
 }

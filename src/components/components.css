@@ -1,0 +1,77 @@
+
+.components{
+    display: flex;
+    flex-direction: row;
+    
+}
+.TAB_COMPONENT{
+    
+   
+    display: flex;
+    flex-direction: row;
+    top:10vw;
+    position: relative;
+    background: rgb(138, 168, 138);
+
+    
+}
+.headertab{
+    height:20px;
+    position:relative;
+    
+  }
+
+.headertab-inner{
+    background-color:rgb(87, 151, 87);
+    width: 250px;
+    height:20px;
+    float: right;
+    text-align: center;   
+}
+p{
+    text-size-adjust: 10;
+    color: aliceblue;
+}
+.stuhero{
+    position:absolute;
+    max-width:100%;
+}
+
+.btn {
+    
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left:150px;
+    top:400px;
+    border: 2px solid rgb(131, 131, 131);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 251, 251);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .textoverlay {
+      position: absolute;
+      z-index: 10;
+      color:azure;
+      top:300px;
+      left: 150px;
+      font-size: 60px; 
+
+  }
+
+  .green {
+     color: rgb(13, 77, 13);
+  }
+  .overlaybottom{
+      font-size: 20px;
+      font-weight: bold;
+      
+      
+  }
+
+  .textoverlay .stulove{
+    font-size: 60px;
+  }
